@@ -1,8 +1,9 @@
+"""Module dedicated to read and manipulate the output products of BESTA."""
 import os
 import numpy as np
 import cosmosis
 
-from hbsps.postprocess import read_results_file
+from besta.postprocess import read_results_file
 
 
 def make_ini_file(filename, config):
